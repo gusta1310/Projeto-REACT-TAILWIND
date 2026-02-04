@@ -1,7 +1,7 @@
-📝 Gerenciador de Tarefas (Task Manager)
+<h2>📝 Gerenciador de Tarefas (Task Manager)</h2>  
 Um gerenciador de tarefas simples e eficiente construído com React, Tailwind CSS e Lucide React. O projeto permite criar, visualizar detalhes, marcar como concluídas e excluir tarefas, utilizando o localStorage para persistência de dados.
 
-🚀 Funcionalidades
+<h3>🚀 Funcionalidades</h3>  
 Adicionar Tarefas: Criação de novas tarefas com título e descrição.
 
 Persistência: As tarefas ficam salvas no navegador através da Local Storage API, não sumindo ao recarregar a página.
@@ -12,7 +12,7 @@ Visualização Detalhada: Rota dinâmica para ver a descrição completa de uma 
 
 Exclusão: Remoção de tarefas da lista com atualização automática do estado.
 
-🛠️ Tecnologias Utilizadas
+<h3>🛠️ Tecnologias Utilizadas </h3>  
 React.js: Biblioteca principal para construção da interface.
 
 Tailwind CSS: Framework CSS para estilização rápida e responsiva.
@@ -21,7 +21,7 @@ React Router DOM: Gerenciamento de rotas e parâmetros de URL.
 
 Lucide React: Biblioteca de ícones elegantes.
 
-📁 Estrutura do Projeto
+<h3>📁 Estrutura do Projeto </h3>  
 O código está organizado em componentes reutilizáveis para facilitar a manutenção:
 
 App.jsx: Componente pai que centraliza a lógica de estado e funções de CRUD.
