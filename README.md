@@ -1,35 +1,22 @@
-📝 Gerenciador de Tarefas (Task Manager)
-Este é um projeto desenvolvido com React para consolidar conceitos de gerenciamento de estado, roteamento dinâmico e persistência de dados. A aplicação permite que o usuário organize suas tarefas diárias de forma simples e intuitiva.
+<h2>📝 Gerenciador de Tarefas (Task Manager)</h2>  
+Um gerenciador de tarefas intuitivo que permite ao usuário organizar suas atividades diárias, com persistência de dados e visualização detalhada de cada item.
 
-🔗 Acesse o projeto online: Clique aqui para abrir
+<h3>🚀 Funcionalidades</h3>  
+Adicionar Tarefas: Criação de novas tarefas com título e descrição detalhada.
 
-🚀 Funcionalidades
-CRUD de Tarefas: Adicione novas tarefas, visualize a lista, marque como concluídas e remova itens indesejados.
+Conclusão de Tarefas: Sistema de alternância (toggle) para marcar tarefas como concluídas, aplicando um efeito visual de "tachado".
 
-Persistência Local: Integração com a API localStorage do navegador para manter os dados salvos mesmo após fechar a página.
+Remoção: Opção para deletar tarefas específicas da lista.
 
-Página de Detalhes: Sistema de rotas para visualizar informações detalhadas de cada tarefa individualmente.
+Navegação de Detalhes: Página dedicada para visualizar o título e a descrição completa de uma tarefa selecionada.
 
-Design Responsivo: Interface moderna e adaptável construída com Tailwind CSS.
+Persistência: Salvamento automático da lista no localStorage do navegador, garantindo que os dados não sejam perdidos ao recarregar a página.
 
-🛠️ Tecnologias Utilizadas
-React.js: Biblioteca principal para construção da interface.
+<h3>🛠️ Tecnologias Utilizadas</h3>  
+React: Biblioteca principal para construção da UI baseada em componentes e hooks como useState e useEffect.
 
-Tailwind CSS: Estilização baseada em classes utilitárias para rapidez e performance.
+React Router DOM: Gerenciamento de rotas e navegação entre páginas, utilizando hooks como useNavigate e useSearchParams.
 
-React Router DOM: Gerenciamento de navegação entre a Home e a Página de Detalhes.
+Tailwind CSS: Framework utilitário para estilização responsiva e moderna.
 
-Lucide React: Biblioteca de ícones modernos.
-
-Vite: Ferramenta de build rápida para o desenvolvimento.
-
-📂 Estrutura do Projeto
-O projeto foi organizado de forma modular para facilitar a manutenção:
-
-App.jsx: Componente central com a lógica de estado global e persistência.
-
-AddTask.jsx: Componente responsável pela captura e validação de novas tarefas.
-
-Tasks.jsx: Lista dinâmica que gerencia as interações de clique e exclusão.
-
-TaskPage.jsx: Página de exibição de detalhes utilizando parâmetros de URL.
+Lucide React: Biblioteca de ícones (Chevron, Trash, etc.) para uma interface mais amigável.
