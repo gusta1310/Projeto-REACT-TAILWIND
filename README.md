@@ -1,22 +1,33 @@
-<h2>📝 Gerenciador de Tarefas (Task Manager)</h2>  
-Um gerenciador de tarefas intuitivo que permite ao usuário organizar suas atividades diárias, com persistência de dados e visualização detalhada de cada item.
+📝 Gerenciador de Tarefas (Task Manager)
+Um gerenciador de tarefas simples e eficiente construído com React, Tailwind CSS e Lucide React. O projeto permite criar, visualizar detalhes, marcar como concluídas e excluir tarefas, utilizando o localStorage para persistência de dados.
 
-<h3>🚀 Funcionalidades</h3>  
-Adicionar Tarefas: Criação de novas tarefas com título e descrição detalhada.
+🚀 Funcionalidades
+Adicionar Tarefas: Criação de novas tarefas com título e descrição.
 
-Conclusão de Tarefas: Sistema de alternância (toggle) para marcar tarefas como concluídas, aplicando um efeito visual de "tachado".
+Persistência: As tarefas ficam salvas no navegador através da Local Storage API, não sumindo ao recarregar a página.
 
-Remoção: Opção para deletar tarefas específicas da lista.
+Marcar como Concluída: Alterna o status da tarefa com um clique, aplicando um efeito visual de riscado.
 
-Navegação de Detalhes: Página dedicada para visualizar o título e a descrição completa de uma tarefa selecionada.
+Visualização Detalhada: Rota dinâmica para ver a descrição completa de uma tarefa específica.
 
-Persistência: Salvamento automático da lista no localStorage do navegador, garantindo que os dados não sejam perdidos ao recarregar a página.
+Exclusão: Remoção de tarefas da lista com atualização automática do estado.
 
-<h3>🛠️ Tecnologias Utilizadas</h3>  
-React: Biblioteca principal para construção da UI baseada em componentes e hooks como useState e useEffect.
+🛠️ Tecnologias Utilizadas
+React.js: Biblioteca principal para construção da interface.
 
-React Router DOM: Gerenciamento de rotas e navegação entre páginas, utilizando hooks como useNavigate e useSearchParams.
+Tailwind CSS: Framework CSS para estilização rápida e responsiva.
 
-Tailwind CSS: Framework utilitário para estilização responsiva e moderna.
+React Router DOM: Gerenciamento de rotas e parâmetros de URL.
 
-Lucide React: Biblioteca de ícones (Chevron, Trash, etc.) para uma interface mais amigável.
+Lucide React: Biblioteca de ícones elegantes.
+
+📁 Estrutura do Projeto
+O código está organizado em componentes reutilizáveis para facilitar a manutenção:
+
+App.jsx: Componente pai que centraliza a lógica de estado e funções de CRUD.
+
+AddTask.jsx: Formulário com validação para entrada de novos dados.
+
+Tasks.jsx: Lista dinâmica que renderiza as tarefas e gerencia ações de clique.
+
+TaskPage.jsx: Página de detalhes que consome parâmetros via Query Strings.
